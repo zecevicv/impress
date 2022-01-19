@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="he-IL" dir="rtl">
+
+<head>
+  <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Impress">
+  <title>Impress</title>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Style (Vendor) -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+  <!-- Style -->
+  <link rel="stylesheet" href="css/elevate-framework.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="img/favicon.png">
+</head>
+
+<body class="home-page">
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <!-- Hamburger -->
+      <div class="header-hamburger">
+        <a href="#">
+          <img src="img/icons/hamburger.svg" alt="impress-img">
+        </a>
+      </div>
+      <!-- Logo -->
+      <div class="header-logo">
+        <a href="#"><img src="img/global/logo.svg" alt="impress-img"></a>
+      </div>
+      <!-- Links -->
+      <div class="header-links">
+        <ul class="f-d-18">
+          <!-- Item -->
+          <li>
+            <a href="#">אך זה עובד</a>
+          </li>
+          <!-- Item -->
+          <li>
+            <a href="#">שעונים</a>
+          </li>
+          <!-- Item -->
+          <li>
+            <a href="#">שאלות ותשובות</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Contact -->
+      <div class="header-contact">
+        <a href="#" class="btn btn-secondary">
+          הגש הצעה
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <div class="banner">
+    <div class="text">
+      <h1 class="f-d-52 f-m-60 medium">IMPRESS-חדש ב</h1>
+      <p class="f-d-22 f-m-34">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורסדולור סיט אמט </p>
+      <a href="#" class="btn btn-primary">הגש הצעה</a>
+    </div>
+    <div class="img">
+      <picture>
+        <source media="(min-width:1024px)" srcset="img/home/banner.jpg">
+        <img src="img/home/banner-mobile.jpg" alt="impress-img">
+      </picture>
+    </div>
+  </div>
+
+  <!-- How It Works -->
+  <div class="how-it-works">
+    <h2 class="f-d-35 f-m-55 medium">אך זה עובד</h2>
+    <ul>
+      <!-- Item -->
+      <li>
+        <div class="img"><img src="img/icons/how-it-works-1.svg" alt="impress-img"></div>
+        <div class="text">
+          <h3 class="f-d-20 f-m-32 medium">בוחרים שעון</h3>
+          <p class="f-d-16 f-m-26">, לורם איפסום דולור סיט אמט
+            קונסק קונסקטורר אדיפיסינג</p>
+        </div>
+      </li>
+      <!-- Item -->
+      <li>
+        <div class="img"><img src="img/icons/how-it-works-2.svg" alt="impress-img"></div>
+        <div class="text">
+          <h3 class="f-d-20 f-m-32 medium">מגישים הצעה</h3>
+          <p class="f-d-16 f-m-26">, לורם איפסום דולור סיט אמט
+            קונסק קונסקטורר אדיפיסינג</p>
+        </div>
+      </li>
+      <!-- Item -->
+      <li>
+        <div class="img"><img src="img/icons/how-it-works-3.svg" alt="impress-img"></div>
+        <div class="text">
+          <h3 class="f-d-20 f-m-32 medium">מחכים</h3>
+          <p class="f-d-16 f-m-26">, לורם איפסום דולור סיט אמט
+            קונסק קונסקטורר אדיפיסינג</p>
+        </div>
+      </li>
+      <!-- Item -->
+      <li>
+        <div class="img"><img src="img/icons/how-it-works-4.svg" alt="impress-img"></div>
+        <div class="text">
+          <h3 class="f-d-20 f-m-32 medium">נהנים משעון חדש</h3>
+          <p class="f-d-16 f-m-26">, לורם איפסום דולור סיט אמט
+            קונסק קונסקטורר אדיפיסינג</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Product Slider -->
+  <div class="product-slider">
+    <div class="container">
+      <h2 class="f-d-40 f-m-55 medium">מגוון שעונים</h2>
+      <!-- Tabs -->
+      <div class="tabs">
+        <!-- Tab Navigation -->
+        <div class="tab-navigation">
+          <ul class="f-d-20 f-m-32">
+            <li class="tab-btn active" data-tab="#tab1">
+              <a href="#">שעון לגברים</a>
+            </li>
+            <li class="tab-btn" data-tab="#tab2">
+              <a href="#">שעון לנשים</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Tab Content -->
+        <div class="tab-content">
+          <ul>
+            <li class="tab-panel active" id="tab1">
+              <div class="slider">
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <!-- Slide -->
+                    <div class="swiper-slide">
+                      <!-- Product Card -->
+                      <div class="product-card">
+                        <div class="product-counter">
+                          <div class="counter">
+                            <p class="f-d-18 f-m-30"><span id="hours">00</span> | <span id="minutes">00</span> | <span id="seconds">00</span></p>
+                          </div>
+                        </div>
+                        <div class="product-img"><img src="img/home/watch-1.jpg" alt="impress-img"></div>
+                        <div class="product-logo"><img src="img/home/logo-1.jpg" alt="impress-img"></div>
+                        <div class="product-title"><p class="f-d-20 f-m-32 medium">Longines Record</p></div>
+                        <div class="product-price">
+                          <ul>
+                            <li>
+                              <p class="f-d-16 f-m-26">:הצעה החל</p>
+                              <p class="f-d-20 f-m-30 bold">₪1,000</p>
+                            </li>
+                            <li>
+                              <p class="f-d-16 f-m-26">:שווי מחיר השעון</p>
+                              <p class="f-d-16 f-m-26">₪2,980</p>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="product-btn">
+                          <a href="#" class="btn btn-primary">הגש הצעה</a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Slide -->
+                    <div class="swiper-slide">
+                      <!-- Product Card -->
+                      <div class="product-card">
+                        <div class="product-counter">
+                          <div class="counter">
+                            <p class="f-d-18 f-m-30"><span id="hours">00</span> | <span id="minutes">00</span> | <span id="seconds">00</span></p>
+                          </div>
+                        </div>
+                        <div class="product-img"><img src="img/home/watch-2.jpg" alt="impress-img"></div>
+                        <div class="product-logo"><img src="img/home/logo-2.jpg" alt="impress-img"></div>
+                        <div class="product-title"><p class="f-d-20 f-m-32 medium">MVMP Vela</p></div>
+                        <div class="product-price">
+                          <ul>
+                            <li>
+                              <p class="f-d-16 f-m-26">:הצעה החל</p>
+                              <p class="f-d-20 f-m-30 bold">₪1,000</p>
+                            </li>
+                            <li>
+                              <p class="f-d-16 f-m-26">:שווי מחיר השעון</p>
+                              <p class="f-d-16 f-m-26">₪2,980</p>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="product-btn">
+                          <a href="#" class="btn btn-primary">הגש הצעה</a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Slide -->
+                    <div class="swiper-slide">
+                      <!-- Product Card -->
+                      <div class="product-card">
+                        <div class="product-counter">
+                          <div class="counter">
+                            <p class="f-d-18 f-m-30"><span id="hours">00</span> | <span id="minutes">00</span> | <span id="seconds">00</span></p>
+                          </div>
+                        </div>
+                        <div class="product-img"><img src="img/home/watch-3.jpg" alt="impress-img"></div>
+                        <div class="product-logo"><img src="img/home/logo-3.jpg" alt="impress-img"></div>
+                        <div class="product-title"><p class="f-d-20 f-m-32 medium">Tissot Couturier</p></div>
+                        <div class="product-price">
+                          <ul>
+                            <li>
+                              <p class="f-d-16 f-m-26">:הצעה החל</p>
+                              <p class="f-d-20 f-m-30 bold">₪1,000</p>
+                            </li>
+                            <li>
+                              <p class="f-d-16 f-m-26">:שווי מחיר השעון</p>
+                              <p class="f-d-16 f-m-26">₪2,980</p>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="product-btn">
+                          <a href="#" class="btn btn-primary">הגש הצעה</a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Slide -->
+                    <div class="swiper-slide">
+                      <!-- Product Card -->
+                      <div class="product-card">
+                        <div class="product-counter">
+                          <div class="counter">
+                            <p class="f-d-18 f-m-30"><span id="hours">00</span> | <span id="minutes">00</span> | <span id="seconds">00</span></p>
+                          </div>
+                        </div>
+                        <div class="product-img"><img src="img/home/watch-1.jpg" alt="impress-img"></div>
+                        <div class="product-logo"><img src="img/home/logo-1.jpg" alt="impress-img"></div>
+                        <div class="product-title"><p class="f-d-20 f-m-32 medium">Longines Record</p></div>
+                        <div class="product-price">
+                          <ul>
+                            <li>
+                              <p class="f-d-16 f-m-26">:הצעה החל</p>
+                              <p class="f-d-20 f-m-30 bold">₪1,000</p>
+                            </li>
+                            <li>
+                              <p class="f-d-16 f-m-26">:שווי מחיר השעון</p>
+                              <p class="f-d-16 f-m-26">₪2,980</p>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="product-btn">
+                          <a href="#" class="btn btn-primary">הגש הצעה</a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Slide -->
+                    <div class="swiper-slide">
+                      <!-- Product Card -->
+                      <div class="product-card">
+                        <div class="product-counter">
+                          <div class="counter">
+                            <p class="f-d-18 f-m-30"><span id="hours">00</span> | <span id="minutes">00</span> | <span id="seconds">00</span></p>
+                          </div>
+                        </div>
+                        <div class="product-img"><img src="img/home/watch-2.jpg" alt="impress-img"></div>
+                        <div class="product-logo"><img src="img/home/logo-2.jpg" alt="impress-img"></div>
+                        <div class="product-title"><p class="f-d-20 f-m-32 medium">MVMP Vela</p></div>
+                        <div class="product-price">
+                          <ul>
+                            <li>
+                              <p class="f-d-16 f-m-26">:הצעה החל</p>
+                              <p class="f-d-20 f-m-30 bold">₪1,000</p>
+                            </li>
+                            <li>
+                              <p class="f-d-16 f-m-26">:שווי מחיר השעון</p>
+                              <p class="f-d-16 f-m-26">₪2,980</p>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="product-btn">
+                          <a href="#" class="btn btn-primary">הגש הצעה</a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Slide -->
+                    <div class="swiper-slide">
+                      <!-- Product Card -->
+                      <div class="product-card">
+                        <div class="product-counter">
+                          <div class="counter">
+                            <p class="f-d-18 f-m-30"><span id="hours">00</span> | <span id="minutes">00</span> | <span id="seconds">00</span></p>
+                          </div>
+                        </div>
+                        <div class="product-img"><img src="img/home/watch-3.jpg" alt="impress-img"></div>
+                        <div class="product-logo"><img src="img/home/logo-3.jpg" alt="impress-img"></div>
+                        <div class="product-title"><p class="f-d-20 f-m-32 medium">Tissot Couturier</p></div>
+                        <div class="product-price">
+                          <ul>
+                            <li>
+                              <p class="f-d-16 f-m-26">:הצעה החל</p>
+                              <p class="f-d-20 f-m-30 bold">₪1,000</p>
+                            </li>
+                            <li>
+                              <p class="f-d-16 f-m-26">:שווי מחיר השעון</p>
+                              <p class="f-d-16 f-m-26">₪2,980</p>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="product-btn">
+                          <a href="#" class="btn btn-primary">הגש הצעה</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-scrollbar"></div>
+                </div>
+                <div class="swiper-arrows">
+                  <div href="#" class="prev"><img src="img/icons/chevron-right-circle.svg" alt="impress-img"></div>
+                  <div href="#" class="next"><img src="img/icons/chevron-left-circle.svg" alt="impress-img"></div>
+                </div>
+              </div>
+            </li>
+            <li class="tab-panel" id="tab2">
+              <div class="slider">
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <!-- Slide -->
+                    <div class="swiper-slide">
+                      <!-- Product Card -->
+                      <div class="product-card">
+                        <div class="product-counter">
+                          <div class="counter">
+                            <p class="f-d-18 f-m-30"><span id="hours">00</span> | <span id="minutes">00</span> | <span id="seconds">00</span></p>
+                          </div>
+                        </div>
+                        <div class="product-img"><img src="img/home/watch-1.jpg" alt="impress-img"></div>
+                        <div class="product-logo"><img src="img/home/logo-1.jpg" alt="impress-img"></div>
+                        <div class="product-title"><p class="f-d-20 f-m-32 medium">Longines Record</p></div>
+                        <div class="product-price">
+                          <ul>
+                            <li>
+                              <p class="f-d-16 f-m-26">:הצעה החל</p>
+                              <p class="f-d-20 f-m-30 bold">₪1,000</p>
+                            </li>
+                            <li>
+                              <p class="f-d-16 f-m-26">:שווי מחיר השעון</p>
+                              <p class="f-d-16 f-m-26">₪2,980</p>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="product-btn">
+                          <a href="#" class="btn btn-primary">הגש הצעה</a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Slide -->
+                    <div class="swiper-slide">
+                      <!-- Product Card -->
+                      <div class="product-card">
+                        <div class="product-counter">
+                          <div class="counter">
+                            <p class="f-d-18 f-m-30"><span id="hours">00</span> | <span id="minutes">00</span> | <span id="seconds">00</span></p>
+                          </div>
+                        </div>
+                        <div class="product-img"><img src="img/home/watch-2.jpg" alt="impress-img"></div>
+                        <div class="product-logo"><img src="img/home/logo-2.jpg" alt="impress-img"></div>
+                        <div class="product-title"><p class="f-d-20 f-m-32 medium">MVMP Vela</p></div>
+                        <div class="product-price">
+                          <ul>
+                            <li>
+                              <p class="f-d-16 f-m-26">:הצעה החל</p>
+                              <p class="f-d-20 f-m-30 bold">₪1,000</p>
+                            </li>
+                            <li>
+                              <p class="f-d-16 f-m-26">:שווי מחיר השעון</p>
+                              <p class="f-d-16 f-m-26">₪2,980</p>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="product-btn">
+                          <a href="#" class="btn btn-primary">הגש הצעה</a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Slide -->
+                    <div class="swiper-slide">
+                      <!-- Product Card -->
+                      <div class="product-card">
+                        <div class="product-counter">
+                          <div class="counter">
+                            <p class="f-d-18 f-m-30"><span id="hours">00</span> | <span id="minutes">00</span> | <span id="seconds">00</span></p>
+                          </div>
+                        </div>
+                        <div class="product-img"><img src="img/home/watch-3.jpg" alt="impress-img"></div>
+                        <div class="product-logo"><img src="img/home/logo-3.jpg" alt="impress-img"></div>
+                        <div class="product-title"><p class="f-d-20 f-m-32 medium">Tissot Couturier</p></div>
+                        <div class="product-price">
+                          <ul>
+                            <li>
+                              <p class="f-d-16 f-m-26">:הצעה החל</p>
+                              <p class="f-d-20 f-m-30 bold">₪1,000</p>
+                            </li>
+                            <li>
+                              <p class="f-d-16 f-m-26">:שווי מחיר השעון</p>
+                              <p class="f-d-16 f-m-26">₪2,980</p>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="product-btn">
+                          <a href="#" class="btn btn-primary">הגש הצעה</a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Slide -->
+                    <div class="swiper-slide">
+                      <!-- Product Card -->
+                      <div class="product-card">
+                        <div class="product-counter">
+                          <div class="counter">
+                            <p class="f-d-18 f-m-30"><span id="hours">00</span> | <span id="minutes">00</span> | <span id="seconds">00</span></p>
+                          </div>
+                        </div>
+                        <div class="product-img"><img src="img/home/watch-1.jpg" alt="impress-img"></div>
+                        <div class="product-logo"><img src="img/home/logo-1.jpg" alt="impress-img"></div>
+                        <div class="product-title"><p class="f-d-20 f-m-32 medium">Longines Record</p></div>
+                        <div class="product-price">
+                          <ul>
+                            <li>
+                              <p class="f-d-16 f-m-26">:הצעה החל</p>
+                              <p class="f-d-20 f-m-30 bold">₪1,000</p>
+                            </li>
+                            <li>
+                              <p class="f-d-16 f-m-26">:שווי מחיר השעון</p>
+                              <p class="f-d-16 f-m-26">₪2,980</p>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="product-btn">
+                          <a href="#" class="btn btn-primary">הגש הצעה</a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Slide -->
+                    <div class="swiper-slide">
+                      <!-- Product Card -->
+                      <div class="product-card">
+                        <div class="product-counter">
+                          <div class="counter">
+                            <p class="f-d-18 f-m-30"><span id="hours">00</span> | <span id="minutes">00</span> | <span id="seconds">00</span></p>
+                          </div>
+                        </div>
+                        <div class="product-img"><img src="img/home/watch-2.jpg" alt="impress-img"></div>
+                        <div class="product-logo"><img src="img/home/logo-2.jpg" alt="impress-img"></div>
+                        <div class="product-title"><p class="f-d-20 f-m-32 medium">MVMP Vela</p></div>
+                        <div class="product-price">
+                          <ul>
+                            <li>
+                              <p class="f-d-16 f-m-26">:הצעה החל</p>
+                              <p class="f-d-20 f-m-30 bold">₪1,000</p>
+                            </li>
+                            <li>
+                              <p class="f-d-16 f-m-26">:שווי מחיר השעון</p>
+                              <p class="f-d-16 f-m-26">₪2,980</p>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="product-btn">
+                          <a href="#" class="btn btn-primary">הגש הצעה</a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Slide -->
+                    <div class="swiper-slide">
+                      <!-- Product Card -->
+                      <div class="product-card">
+                        <div class="product-counter">
+                          <div class="counter">
+                            <p class="f-d-18 f-m-30"><span id="hours">00</span> | <span id="minutes">00</span> | <span id="seconds">00</span></p>
+                          </div>
+                        </div>
+                        <div class="product-img"><img src="img/home/watch-3.jpg" alt="impress-img"></div>
+                        <div class="product-logo"><img src="img/home/logo-3.jpg" alt="impress-img"></div>
+                        <div class="product-title"><p class="f-d-20 f-m-32 medium">Tissot Couturier</p></div>
+                        <div class="product-price">
+                          <ul>
+                            <li>
+                              <p class="f-d-16 f-m-26">:הצעה החל</p>
+                              <p class="f-d-20 f-m-30 bold">₪1,000</p>
+                            </li>
+                            <li>
+                              <p class="f-d-16 f-m-26">:שווי מחיר השעון</p>
+                              <p class="f-d-16 f-m-26">₪2,980</p>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="product-btn">
+                          <a href="#" class="btn btn-primary">הגש הצעה</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-scrollbar"></div>
+                </div>
+                <div class="swiper-arrows">
+                  <div href="#" class="prev"><img src="img/icons/chevron-right-circle.svg" alt="impress-img"></div>
+                  <div href="#" class="next"><img src="img/icons/chevron-left-circle.svg" alt="impress-img"></div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div class="faq">
+    <!-- Img -->
+    <div class="img">
+      <img src="img/home/faq.jpg" alt="impress-img">
+    </div>
+    <!-- Text -->
+    <div class="text">
+      <h2 class="f-d-45 f-m-55 medium">שאלות ותשובות</h2>
+        <!-- Accordion -->
+        <div class="accordion">
+          <!-- Collapsible -->
+          <div class="collapsible show">
+            <!-- Toggler -->
+            <div class="collapse-toggler f-d-24 f-m-34 medium">
+              שאלות ותשובות
+              <img src="img/icons/chevron-down.svg" alt="impress-img">
+            </div>
+            <!-- Collapse -->
+            <div class="collapse" style="height: auto;">
+              <div>
+                <p class="f-d-18 f-m-32"> לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס. גולר מונפרר סוברט לורם שבצק יהול? לכנוץ בעריר גק ליץ, ושבעגט ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך </p>
+              </div>
+            </div>
+          </div>
+          <!-- Collapsible -->
+          <div class="collapsible">
+            <!-- Toggler -->
+            <div class="collapse-toggler f-d-24 f-m-34 medium">
+              שאלות ותשובות
+              <img src="img/icons/chevron-down.svg" alt="impress-img">
+            </div>
+            <!-- Collapse -->
+            <div class="collapse">
+              <div>
+                <p class="f-d-18 f-m-32"> לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס. גולר מונפרר סוברט לורם שבצק יהול? לכנוץ בעריר גק ליץ, ושבעגט ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך </p>
+              </div>
+            </div>
+          </div>
+          <!-- Collapsible -->
+          <div class="collapsible">
+            <!-- Toggler -->
+            <div class="collapse-toggler f-d-24 f-m-34 medium">
+              שאלות ותשובות
+              <img src="img/icons/chevron-down.svg" alt="impress-img">
+            </div>
+            <!-- Collapse -->
+            <div class="collapse">
+              <div>
+                <p class="f-d-18 f-m-32"> לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס. גולר מונפרר סוברט לורם שבצק יהול? לכנוץ בעריר גק ליץ, ושבעגט ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך </p>
+              </div>
+            </div>
+          </div>
+          <!-- Collapsible -->
+          <div class="collapsible">
+            <!-- Toggler -->
+            <div class="collapse-toggler f-d-24 f-m-34 medium">
+              שאלות ותשובות
+              <img src="img/icons/chevron-down.svg" alt="impress-img">
+            </div>
+            <!-- Collapse -->
+            <div class="collapse">
+              <div>
+                <p class="f-d-18 f-m-32"> לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס. גולר מונפרר סוברט לורם שבצק יהול? לכנוץ בעריר גק ליץ, ושבעגט ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך </p>
+              </div>
+            </div>
+          </div>
+          <!-- Collapsible -->
+          <div class="collapsible">
+            <!-- Toggler -->
+            <div class="collapse-toggler f-d-24 f-m-34 medium">
+              שאלות ותשובות
+              <img src="img/icons/chevron-down.svg" alt="impress-img">
+            </div>
+            <!-- Collapse -->
+            <div class="collapse">
+              <div>
+                <p class="f-d-18 f-m-32"> לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס. גולר מונפרר סוברט לורם שבצק יהול? לכנוץ בעריר גק ליץ, ושבעגט ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <!-- Top -->
+      <div class="top">
+        <!-- Logo -->
+        <div class="footer-logo">
+          <img src="img/global/logo.svg" alt="impress-img">
+        </div>
+        <!-- Links -->
+        <div class="footer-links">
+          <ul class="f-d-18 f-m-38 medium">
+            <!-- Item -->
+            <li>
+              <a href="#">אך זה עובד</a>
+            </li>
+            <!-- Item -->
+            <li>
+              <a href="#">שעונים</a>
+            </li>
+            <!-- Item -->
+            <li>
+              <a href="#">שאלות ותשובות</a>
+            </li>
+            <!-- Item -->
+            <li>
+              <a href="#">לאתר החברה</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Social -->
+        <div class="footer-social">
+          <p class="f-d-16 d-desktop">חפשו אותנו</p>
+          <ul>
+            <!-- Item -->
+            <li><a href="#"><img src="img/icons/whatsapp.svg" alt="impress-img"></a></li>
+            <!-- Item -->
+            <li><a href="#"><img src="img/icons/facebook.svg" alt="impress-img"></a></li>
+            <!-- Item -->
+            <li><a href="#"><img src="img/icons/twitter.svg" alt="impress-img"></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Bottom -->
+      <div class="bottom">
+        <p class="f-d-14 f-m-24 light">Copyright Impress , 2021</p>
+        <a href="https://portfolio.elevate.co.il/" class="f-d-14 f-m-24 light" target="_blank">© 2021 Design by Elevate</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script (Vendor) -->
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/gsap.min.js"></script>
+
+  <!-- Script -->
+  <script src="js/elevate-framework.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
