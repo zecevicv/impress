@@ -79,5 +79,28 @@ if (document.querySelector('.counter')) {
     
     startTimer();
   });
+}
+
+/* #Product Gallery Slider
+  ======================================================= */
+if (document.querySelector('.product-gallery')) {
+  let swiper2 = new Swiper(".product-gallery .thumbs .swiper", {
+    direction: "vertical",
+    slidesPerView: "auto",
+    watchSlidesVisibility: true,
+    watchSlidesProgress: true,
+  });
+  
+  let swiper = new Swiper(".product-gallery .gallery .swiper", {
+    slidesPerView: 1,
+    watchSlidesVisibility: true,
+    watchSlidesProgress: true,
+    thumbs: {
+      swiper: swiper2,
+    },
+    scrollbar: {
+      el: ".product-gallery .gallery .swiper-scrollbar",
+    },
+  });
 
 }
